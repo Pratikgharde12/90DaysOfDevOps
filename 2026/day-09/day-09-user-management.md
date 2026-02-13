@@ -53,9 +53,10 @@ drwxrwxr-x 2 root project-team 4096 Feb 13 15:29 team-workspace
     How to create groups 
     How to manage users and groups along with permissions
 
+Screenshot 1
+<img width="945" height="72" alt="image" src="https://github.com/user-attachments/assets/39c265ba-204f-4dee-9f31-54938ba12364" />
 
-    <img width="945" height="72" alt="image" src="https://github.com/user-attachments/assets/39c265ba-204f-4dee-9f31-54938ba12364" />
-
-    <img width="718" height="201" alt="Screenshot 2026-02-14 030449" src="https://github.com/user-attachments/assets/ebe1812a-352c-4142-91fc-d9afdc0155f6" />
+Screenshot2
+<img width="718" height="201" alt="Screenshot 2026-02-14 030449" src="https://github.com/user-attachments/assets/ebe1812a-352c-4142-91fc-d9afdc0155f6" />
 
 
