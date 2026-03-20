@@ -20,7 +20,7 @@ do
 done
 
 output:
-ubuntu@ip-172-31-6-79:~/scripts$ ./count.sh
+ubuntu@ip-172-xx-xx-79:~/scripts$ ./count.sh
 1
 2
 3
@@ -34,7 +34,7 @@ ubuntu@ip-172-31-6-79:~/scripts$ ./count.sh
 
 3)countdown.sh
 code : 
-ubuntu@ip-172-31-6-79:~/scripts$ cat countdown.sh
+ubuntu@ip-172-xx-xx-79:~/scripts$ cat countdown.sh
 read -p "enter a number" num
 while (($num > 0)); do
         echo $num
@@ -62,9 +62,9 @@ else
 fi
 
 output:
-ubuntu@ip-172-31-6-79:~/scripts$ ./greet.sh pratik
+ubuntu@ip-172-xx-xx-79:~/scripts$ ./greet.sh pratik
 Hello, pratik !
-ubuntu@ip-172-31-6-79:~/scripts$ ./greet.sh
+ubuntu@ip-172-xx-xx-79:~/scripts$ ./greet.sh
 Usage: ./greet.sh
 
 5) args_demo.sh
@@ -74,7 +74,7 @@ echo "Total number of arguments $#"
 echo "script name $0"
 
 output:
-ubuntu@ip-172-31-6-79:~/scripts$ ./argesdemo.sh 1 2 3 4
+ubuntu@ip-172-xx-xx-79:~/scripts$ ./argesdemo.sh 1 2 3 4
 All arguments 1 2 3 4
 Total number of arguments 4
 script name ./argesdemo.sh
@@ -96,7 +96,7 @@ for pkg in ${packages[@]}; do
 done
 
 output:
-ubuntu@ip-172-31-6-79:~/scripts$ sudo ./install_packages.sh
+ubuntu@ip-172-xx-xx-79:~/scripts$ sudo ./install_packages.sh
  nginx is already present
  wget is already present
  curl not present
@@ -104,7 +104,7 @@ Installing the package
 Reading package lists... Done
 
 output : 
-ubuntu@ip-172-31-6-79:~/scripts$ ./install_packages.sh
+ubuntu@ip-172-xx-xx-79:~/scripts$ ./install_packages.sh
 Run as root
 
 
@@ -123,7 +123,7 @@ touch file1 || echo "file not created"
 echo "exiting"
 
 output:
-ubuntu@ip-172-31-6-79:~/scripts$ ./safe_script.sh
+ubuntu@ip-172-xx-xx-79:~/scripts$ ./safe_script.sh
 step 1 mkdir
 mkdir: cannot create directory ‘/tmp/devops-test/’: File exists
 Directory already present
