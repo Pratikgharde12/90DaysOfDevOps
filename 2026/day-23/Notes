@@ -1,0 +1,13 @@
+1.What is the difference between origin and upstream?
+origin
+Usually points to your own fork or the repository you cloned from.
+It is the default remote created when you run:
+
+
+upstream
+Usually points to the original repository from which your fork was created.
+You generally pull changes from upstream to keep your fork updated.
+You typically do not push directly to upstream (unless you have write access).
+
+2.What is the difference between git fetch and git pull?
+git fetch downloads the latest changes from the remote repository and updates remote-tracking branches, but it does not modify my current branch. git pull performs a fetch followed by a merge (or rebase), automatically bringing those changes into my working branch
